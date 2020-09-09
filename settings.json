@@ -1,8 +1,9 @@
 {
     "workbench.colorTheme": "Visual Studio Dark",
+    "editor.renderWhitespace": "all",
     "todo-tree.highlights.enabled": true,
     "todo-tree.tree.showScanModeButton": false,
-    "editor.rulers": [ 115 ],
+    "editor.rulers": [115],
     "workbench.editor.highlightModifiedTabs": true,
     "todo-tree.general.tags": [
         "CR",
