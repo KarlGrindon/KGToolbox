@@ -3,5 +3,23 @@
     "todo-tree.highlights.enabled": true,
     "todo-tree.tree.showScanModeButton": false,
     "editor.rulers": [ 115 ],
-    "workbench.editor.highlightModifiedTabs": true
+    "workbench.editor.highlightModifiedTabs": true,
+    "todo-tree.general.tags": [
+        "CR",
+        "CR-soon"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "CR": {
+            "icon": "check",
+            "type": "line",
+            "foreground" : "white",
+            "background" : "red"
+        },
+        "CR-soon": {
+            "foreground": "white",
+            "background": "blue",
+            "icon": "git-pull-request",
+            "type": "line"
+        }
+    }
 }
